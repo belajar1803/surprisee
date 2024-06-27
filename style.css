@@ -1,0 +1,118 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #b44aa3;
+    text-align: center;
+}
+
+header {
+    background-color: #ad488f;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #390342;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+}
+
+#gift-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.gift-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+    z-index: 2; /* Urutan tumpukan di atas big box */
+
+    
+
+}
+
+button {
+
+    background-color: #d81095;
+    color: rgb(54, 4, 50);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    z-index: 1; /* Urutan tumpukan di atas big box */
+
+}
+
+button:hover {
+    background-color: #640434;
+
+}
+
+
+
+header {
+    background-color: #df40aa;
+    h1 { 
+        color:#640434
+    }
+}
+div .gift-content{
+    background-color: rgb(51, 20, 66);
+    color:#d85999
+}
+
+.big-box {
+    position: absolute;
+    width: 1200px; /* Lebar kotak besar */
+    height: 1300px; /* Tinggi kotak besar */
+    background-color: #f80db2; /* Warna latar belakang kotak */
+    z-index: 0 ; ; /* Urutan tumpukan di bawah container */
+
+
+}
+
+  
+
+
+  img {
+    position: relative;
+    width: 20%; /* Sesuaikan lebar gambar */
+    height: auto;
+  }
